@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — YooToo Finance</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #1B2B5E;
+      color: #ffffff;
+      line-height: 1.7;
+      padding: 0 0 60px;
+    }
+    header {
+      background: #152447;
+      border-bottom: 2px solid #C9A84C;
+      padding: 32px 24px 24px;
+      text-align: center;
+    }
+    header h1 { color: #C9A84C; font-size: 28px; font-weight: 800; margin-bottom: 6px; }
+    header p  { color: #8892b0; font-size: 14px; }
+    .badge {
+      display: inline-block;
+      background: #0EA5A0;
+      color: #1B2B5E;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-top: 12px;
+      text-transform: uppercase;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    section {
+      background: #152447;
+      border: 1px solid #0EA5A0;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #C9A84C;
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #0f2044;
+    }
+    p { color: #d0d8f0; font-size: 15px; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul { color: #d0d8f0; font-size: 15px; padding-left: 20px; }
+    ul li { margin-bottom: 8px; }
+    .highlight {
+      background: #0f2a30;
+      border-left: 3px solid #0EA5A0;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 12px 0;
+      color: #0EA5A0;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    a { color: #C9A84C; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .updated { color: #8892b0; font-size: 13px; margin-top: 4px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🇦🇪 YooToo Finance</h1>
+  <p>Privacy Policy</p>
+  <div class="badge">Dubai · UAE</div>
+</header>
+
+<main>
+
+  <section>
+    <h2>Overview</h2>
+    <p>YooToo Finance is a personal finance app built for UAE residents. Your financial data is your own. This policy explains exactly what we collect, why, and where it goes.</p>
+    <div class="highlight">
+      ✦ Your transaction data, bank statements, and payslips never leave your device. They are stored in a private on-device database only you can access.
+    </div>
+    <p class="updated">Last updated: March 2026</p>
+  </section>
+
+  <section>
+    <h2>What We Collect</h2>
+    <p><strong>During registration (optional)</strong>, you may provide:</p>
+    <ul>
+      <li>Your name</li>
+      <li>Email address</li>
+      <li>Mobile number</li>
+    </ul>
+    <p>This information is used solely to send you a welcome email and to notify us that a new user has registered. It is not sold or shared with third parties for marketing.</p>
+    <p><strong>During app use</strong>, the following is processed:</p>
+    <ul>
+      <li>PDF bank statements and payslips — uploaded by you, parsed by our server, then discarded. Only the extracted transaction data (dates, amounts, merchants, categories) is returned to and stored on your device.</li>
+      <li>Receipt photos — sent to our server for text recognition, then immediately discarded. Only the parsed values are stored locally.</li>
+      <li>Biometric data (Face ID / Touch ID) — processed entirely by iOS on your device. We never see, store, or transmit this data.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Where Your Data Is Stored</h2>
+    <div class="highlight">
+      ✦ All financial data (transactions, budgets, payslips, goals) is stored in a SQLite database on your device only. It is never uploaded to our servers or any cloud service.
+    </div>
+    <p>Uninstalling the app permanently deletes all locally stored data. There is no cloud backup; it is your responsibility to export your data via the CSV export feature in Settings before uninstalling.</p>
+  </section>
+
+  <section>
+    <h2>Third-Party Services</h2>
+    <p>YooToo Finance uses the following third-party services in limited circumstances:</p>
+    <ul>
+      <li><strong>Anthropic (Claude API)</strong> — used to parse the text content of receipts and documents you upload. The content is processed and immediately discarded; Anthropic does not retain it for training purposes under standard API usage terms. <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic Privacy Policy →</a></li>
+      <li><strong>SendGrid</strong> — used to send a one-time welcome email if you provide your email address during registration. <a href="https://sendgrid.com/policies/privacy/" target="_blank">SendGrid Privacy Policy →</a></li>
+    </ul>
+    <p>No analytics SDKs, advertising networks, or tracking tools are used in this app.</p>
+  </section>
+
+  <section>
+    <h2>Push Notifications</h2>
+    <p>If you grant notification permission, YooToo Finance may send local reminders about upcoming recurring bills (e.g. rent, subscriptions). These notifications are scheduled on-device and do not require sending any data to our servers.</p>
+  </section>
+
+  <section>
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>We do not maintain a database of your personal information. Your name, email, and mobile number are used at registration time and are not stored in any retrievable database on our end beyond what SendGrid retains in its email logs.</p>
+    <p>To delete your locally stored financial data, go to <strong>Settings → Data → Delete All Data</strong> within the app, or simply uninstall it.</p>
+    <p>To request deletion of any registration information, email us at <a href="mailto:privacy@yootoo.app">privacy@yootoo.app</a>.</p>
+  </section>
+
+  <section>
+    <h2>Security</h2>
+    <p>The app supports PIN and biometric (Face ID / Touch ID) locking. PDF passwords for encrypted statements are stored using iOS Secure Enclave via <code>expo-secure-store</code> and are never transmitted.</p>
+    <p>Communication with our parsing server uses HTTPS. Uploaded documents are processed in memory and not written to disk on the server.</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>YooToo Finance is intended for users 17 years of age and older. We do not knowingly collect information from children.</p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>If we make material changes to this policy, we will update the date above and, where appropriate, notify you within the app.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about this privacy policy? Get in touch:</p>
+    <p>📧 <a href="mailto:privacy@yootoo.app">privacy@yootoo.app</a></p>
+    <p>🇦🇪 YooToo Finance · Dubai, United Arab Emirates</p>
+  </section>
+
+</main>
+
+</body>
+</html>
