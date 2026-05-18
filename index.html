@@ -80,11 +80,26 @@
 
   <section>
     <h2>Overview</h2>
-    <p>YooToo Finance is a personal finance app built for UAE residents. Your financial data is your own. This policy explains exactly what we collect, why, and where it goes.</p>
+    <p>YooToo Finance is a personal finance app. Your financial data is your own. This policy explains exactly what we collect, why, and where it goes.</p>
     <div class="highlight">
       ✦ Your transaction data, bank statements, and payslips never leave your device. They are stored in a private on-device database only you can access.
     </div>
-    <p class="updated">Last updated: March 2026</p>
+    <p class="updated">Last updated: April 2026</p>
+  </section>
+
+  <section>
+    <h2>🤖 AI Processing — Important Disclosure</h2>
+    <p>YooToo uses <strong>Anthropic's Claude AI</strong> to read the contents of any PDF bank statement, payslip, or receipt photo you choose to upload, and convert it into structured transactions you can categorise.</p>
+    <div class="highlight">
+      ✦ Before any document is sent to Claude, the app shows you an explicit consent dialog explaining what data will be sent, who it will be sent to, and gives you the choice to continue or cancel. Uploads will not proceed without your express tap-to-confirm consent on every session.
+    </div>
+    <ul>
+      <li><strong>What is sent:</strong> the document file you choose to upload (PDF or photo). Nothing else. The app does not transmit your other transactions, budgets, or settings.</li>
+      <li><strong>Where it goes:</strong> first to YooToo's Vercel-hosted API (only as a relay), then to Anthropic's Claude API. Both connections use HTTPS.</li>
+      <li><strong>How long it is kept:</strong> the YooToo backend processes the document in memory and discards it the moment Claude returns the parsed transactions. No copy is written to disk on our servers. Anthropic does not train on API inputs and discards content per its <a href="https://www.anthropic.com/legal/commercial-terms" target="_blank">Commercial Terms</a>.</li>
+      <li><strong>How to revoke:</strong> you can withdraw AI processing consent at any time in Settings → Privacy → AI Processing. Without consent the upload features are simply disabled — the rest of the app continues to function.</li>
+    </ul>
+    <p>For more about how Anthropic handles API data, see <a href="https://www.anthropic.com/privacy" target="_blank">Anthropic's Privacy Policy</a>.</p>
   </section>
 
   <section>
